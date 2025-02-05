@@ -6,6 +6,8 @@ import Footer from "./Footer";
 import Banner from "./Banner";
 import CompanyInfo from "./CompanyInfo";
 import RecruiterLogin from "./RecruiterLogin";
+import Category from "./Category";
+import CategoryCard from "./CategoryCard";
 export {
     Hero,
     JobCard,
@@ -14,5 +16,7 @@ export {
     Footer,
     Banner,
     CompanyInfo,
-    RecruiterLogin
+    RecruiterLogin,
+    Category,
+    CategoryCard
 }

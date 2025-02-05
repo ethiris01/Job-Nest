@@ -35,6 +35,8 @@ import adobe_logo from "./adobe_logo.png";
 import amazon_logo from "./amazon_logo.png";
 import building from "./building.png";
 import main from "./main.svg";
+import web from "./web.png"
+
 export const assets = {
   logo,
   search_icon,
@@ -73,6 +75,7 @@ export const assets = {
   amazon_logo,
   building,
   main,
+  web,
 };
 
 export const JobCategories = [
@@ -170,6 +173,48 @@ export const jobsApplied = [
     logo: company_icon,
   },
 ];
+
+
+export const categoriesData = [
+  {
+    logo: web,
+    title:"Development",
+    desc:"Software Engineer,Web and Mobile Developer & More"
+  },
+  {
+    logo: web,
+    title:"Data Analytics",
+    desc:"Machine Learning,Deep learning& More."
+  },
+  {
+    logo: web,
+    title:"Designing",
+    desc:"Figma Design, Web and Logo design & More."
+  },
+  {
+    logo: web,
+    title:"Cyber Security",
+    desc:"Devops Engineer security Management & More."
+  },
+  {
+    logo: web,
+    title:"Data Analytics",
+    desc:"Machine Learning,Deep learning& More."
+  },
+  {
+    logo: web,
+    title:"Designing",
+    desc:"Figma Design, Web and Logo design & More."
+  },
+  {
+    logo: web,
+    title:"Cyber Security",
+    desc:"Devops Engineer security Management & More."
+  },
+]
+
+
+
 
 export const viewApplicationsPageData = [
   {
@@ -270,7 +315,7 @@ export const jobsData = [
     title: "Data Scientist",
     location: "New York",
     type: "Part Time",
-    exp:"1-5 Years",
+    exp:"1-3 Years",
     companyId: {
       _id: "670e4d25ca9fda8f1bf359b9",
       name: "Slack",
@@ -304,7 +349,7 @@ export const jobsData = [
     title: "UI/UX Designer",
     location: "Bangalore",
     type: "Full Time",
-    exp:"Fresher",
+    exp:"3-7 Years",
     companyId: {
       _id: "670e4d25ca9fda8f1bf359b9",
       name: "Slack",
@@ -406,7 +451,7 @@ export const jobsData = [
     title: "Network Engineer",
     location: "Bangalore",
     type: "Full Time",
-      exp:"Fresher",
+      exp:"7+ Years",
     companyId: {
       _id: "670e4d25ca9fda8f1bf359b9",
       name: "Slack",
@@ -440,7 +485,7 @@ export const jobsData = [
       title: "Project Manager",
       location: "Bangalore",
        type: "Part Time",
-         exp:"1-7 Years",
+         exp:"1-3 Years",
       companyId: {
           "_id": "670e4d25ca9fda8f1bf359b9",
           "name": "Slack",
